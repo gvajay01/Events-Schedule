@@ -7,10 +7,66 @@
   pointer-events: none;
 }
 
+.test {
+  align-content: flex-end;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.navbar-expand-lg {
+  justify-content: space-between !important;
+}
+
+.Event-remain {
+  padding: 20px;
+  text-align: left !important;
+  width: 602px;
+}
+
+.upload {
+  align-self: center;
+  padding-right: 10px;
+}
+
+.Event-img {
+  margin-left: 23%;
+  align-items: center;
+}
+
+.Title {
+  text-align: left !important;
+  margin-left: 23%;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.para {
+  margin-bottom: 0rem;
+}
+
+.photo {
+  height: 80px;
+  width: 120px;
+}
+
+/* .fa-cog { */
+/* color: red; */
+/* } */
+
+.show > .dropdown-menu {
+  display: block;
+  position: absolute;
+}
+
+.flex-inline {
+  display: flex !important;
+  align-items: center !important;
 }
 
 .App-header {

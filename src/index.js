@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// importing bootsrtap
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap';
+import 'bootstrap/dist/js/bootstrap.js';
+
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
